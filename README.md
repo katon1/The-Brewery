@@ -10,12 +10,21 @@ TASKS
 
 Database -
 TLDR:
-Categories of the types of potions || Potion names || Potion Prices || Potion description 
+Categories of the types of potions || Potion names || Potion Prices || Potion description || Potion stock
 
 Frontend/Backend - React Js - HTML - CSS - Links to the database and automatically updates the database if someone buys a potion 
 // Maybe login page, cart, etc
 
-Pages for front-end
+Pages/Components for front-end
+- (Landing) Home page
+- Recipes Page
+- Potion Catalogue (Store Page)
+- (Later stages) Potentially a mini-game that you can mix your own potion
+- Contact us page (Suggestions maybe?)
+
+Backend 
+- Link the store page to the database which will link the number of potions in stock and the potions
+
 
 
 
