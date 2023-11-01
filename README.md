@@ -12,8 +12,12 @@ Database -
 TLDR:
 Categories of the types of potions || Potion names || Potion Prices || Potion description || Potion stock
 
+Potential Features
+- Login Page (Sessions)
+- Cart 
+
 Frontend/Backend - React Js - HTML - CSS - Links to the database and automatically updates the database if someone buys a potion 
-// Maybe login page, cart, etc
+
 
 Pages/Components for front-end
 - (Landing) Home page
