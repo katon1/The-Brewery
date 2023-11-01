@@ -6,7 +6,7 @@ Welcome to the Brewery
 Here you will be able to find any potions you would like to buy. We have a wide variety of potions that range from health potions to invisibility potions.
 
 
-TASKS 
+TASKS (Single page website)
 
 Database -
 TLDR:
