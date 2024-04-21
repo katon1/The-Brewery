@@ -1,0 +1,60 @@
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+footer > ul {
+    list-style-type: none;
+}
+
+footer > ul > li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer > ul > li > a[href] {
+    color: #00FFFF;
+    text-decoration: none;
+    
+}
+
+#content {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    min-height: 300px;
+}

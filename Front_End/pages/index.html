@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Brewery</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 
 <!-- Single page website-->
@@ -12,40 +13,26 @@
         <h1>The Brewery</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Store</a></li>
-                <li><a href="#">Recipes</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('catalogue')">Store</a></li>
+                <li><a href="#" onclick="showSection('recipes')">Recipes</a></li>
+                <li><a href="#" onclick="showSection('contact')">Contact Us</a></li>
             </ul>
         </nav>
     </header>
-
-    <h1> Welcome to the Brewery </h1>
-
-    <p> Here you will be able to find any potions you would like to buy. We have a wide variety of potions that range from health potions to invisibility potions.</p>
-
-    <!-- Insert potion animation here-->
-    <h1>Picture Here</h1>
-
-    <section>
-    <h1 class="Potions">Potions</h1> <!-- Hidden until clicked on-->
-        <ul> <!-- Here use API and input the database categories and if clicked on a specific category add pop out the potions of that category.-->
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </section>
-
-    <!-- Bottom part of the website (Put images)-->
+    
+    <main id="content">
+    <!-- Woaw content -->
+    </main>
+     
+    <footer>
     <ul>
         <li><a href ="#">Terms of Service</a></li>
-        <li><a href ="#">X</a></li>
-        <li><a href ="#">Github</a></li>
+        <li><a href ="#">X</a></li> <!-- Change this into Logo-->
+        <li><a href ="#">Github</a></li> <!-- Change this into Logo-->
     </ul>
+    </footer>
+    <script src="../js/script.js"></script>
 </body>
 
 

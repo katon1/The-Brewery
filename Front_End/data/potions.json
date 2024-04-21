@@ -1,0 +1,304 @@
+[
+    {
+        "id": 1,
+        "name": "Elixir of Vitality",
+        "description": "Restores 50 HP over 30 seconds.",
+        "type": "Health"
+    },
+    {
+        "id": 2,
+        "name": "Invisibility Draft",
+        "description": "Grants invisibility for 15 seconds.",
+        "type": "Invisibility"
+    },
+    {
+        "id": 3,
+        "name": "Strength Serum",
+        "description": "Increases strength by 25% for 10 minutes.",
+        "type": "Strength"
+    },
+    {
+        "id": 4,
+        "name": "Memory Mix",
+        "description": "Enhances memory recall for 6 hours.",
+        "type": "Memory"
+    },
+    {
+        "id": 5,
+        "name": "Healing Harmony",
+        "description": "Cures minor wounds and soothes pains.",
+        "type": "Healing"
+    },
+    {
+        "id": 6,
+        "name": "Love Liqueur",
+        "description": "Increases the drinker's charm and charisma towards others.",
+        "type": "Charm"
+    },
+    {
+        "id": 7,
+        "name": "Speed Spirit",
+        "description": "Boosts speed by 50% for 5 minutes.",
+        "type": "Speed"
+    },
+    {
+        "id": 8,
+        "name": "Lucid Dream Potion",
+        "description": "Induces vivid and controllable dreams for one night.",
+        "type": "Dream"
+    },
+    {
+        "id": 9,
+        "name": "Fortune Fluid",
+        "description": "Increases luck in finding money and treasures for one day.",
+        "type": "Luck"
+    },
+    {
+        "id": 10,
+        "name": "Tranquility Tonic",
+        "description": "Calms the nerves and relieves stress instantly.",
+        "type": "Calm"
+    },
+    {
+        "id": 11,
+        "name": "Fire Breath Draught",
+        "description": "Allows the user to exhale fire for a short burst.",
+        "type": "Fire"
+    },
+    {
+        "id": 12,
+        "name": "Frost Finger Potion",
+        "description": "User's touch freezes objects for up to 30 seconds.",
+        "type": "Ice"
+    },
+    {
+        "id": 13,
+        "name": "Giant Growth Grog",
+        "description": "Temporarily increases the user's size by 200%.",
+        "type": "Growth"
+    },
+    {
+        "id": 14,
+        "name": "Shrink Solution",
+        "description": "Reduces the user's size by 50% for 30 minutes.",
+        "type": "Shrink"
+    },
+    {
+        "id": 15,
+        "name": "Night Vision Nectar",
+        "description": "Grants perfect night vision for 12 hours.",
+        "type": "Vision"
+    },
+    {
+        "id": 16,
+        "name": "Antidote Elixir",
+        "description": "Cures common poisons and toxins.",
+        "type": "Antidote"
+    },
+    {
+        "id": 17,
+        "name": "Fleet-Foot Formula",
+        "description": "Enhances agility and reflexes for 1 hour.",
+        "type": "Agility"
+    },
+    {
+        "id": 18,
+        "name": "Clairvoyance Cocktail",
+        "description": "Grants foresight of minor future events for 10 minutes.",
+        "type": "Clairvoyance"
+    },
+    {
+        "id": 19,
+        "name": "Stoneskin Serum",
+        "description": "Skin becomes as hard as rock, reducing damage for 20 minutes.",
+        "type": "Defense"
+    },
+    {
+        "id": 20,
+        "name": "Levitation Lotion",
+        "description": "Allows the user to float a few inches off the ground for an hour.",
+        "type": "Levitation"
+    },
+    {
+        "id": 21,
+        "name": "Phantom Philter",
+        "description": "User becomes partially ethereal, allowing them to pass through thin barriers.",
+        "type": "Ghost"
+    },
+    {
+        "id": 22,
+        "name": "Sunshine Syrup",
+        "description": "Mood enhancer that makes the user feel euphoric for hours.",
+        "type": "Mood"
+    },
+    {
+        "id": 23,
+        "name": "Barkskin Brew",
+        "description": "User's skin turns tough like tree bark, increasing defense.",
+        "type": "Defense"
+    },
+    {
+        "id": 24,
+        "name": "Whisper Wind Wine",
+        "description": "Increases the user's stealth abilities by dampening sounds they make.",
+        "type": "Stealth"
+    },
+    {
+        "id": 25,
+        "name": "Thunder Throat Tonic",
+        "description": "User's voice carries with thunderous volume and force.",
+        "type": "Voice"
+    },
+    {
+        "id": 26,
+        "name": "Mirror Mist Medicine",
+        "description": "Creates a temporary double of the user to confuse attackers.",
+        "type": "Illusion"
+    },
+    {
+        "id": 27,
+        "name": "Ogre's Oath Oil",
+        "description": "Increases physical strength dramatically for a short period.",
+        "type": "Strength"
+    },
+    {
+        "id": 28,
+        "name": "Pixie Dust Potion",
+        "description": "Gives the user a fleeting sense of joy and lightness.",
+        "type": "Joy"
+    },
+    {
+        "id": 29,
+        "name": "Wraith Wrath Water",
+        "description": "User can emit a terrifying aura that scares away weaker creatures.",
+        "type": "Fear"
+    },
+    {
+        "id": 30,
+        "name": "Zephyr Zest Zinger",
+        "description": "Boosts the user's energy and reduces fatigue for 24 hours.",
+        "type": "Energy"
+    },
+    {
+        "id": 31,
+        "name": "Vampire's Veil Vial",
+        "description": "Grants the user enhanced senses and predatory instincts.",
+        "type": "Predatory"
+    },
+    {
+        "id": 32,
+        "name": "Ether Essence Elixir",
+        "description": "User can see and interact with ethereal and spectral entities.",
+        "type": "Spectral"
+    },
+    {
+        "id": 33,
+        "name": "Mermaid's Melody Mixture",
+        "description": "Grants the ability to breathe underwater and swim with ease.",
+        "type": "Aquatic"
+    },
+    {
+        "id": 34,
+        "name": "Dragon's Dare Draught",
+        "description": "Increases user's bravery and reduces fear in the face of danger.",
+        "type": "Courage"
+    },
+    {
+        "id": 35,
+        "name": "Elven Elegance Elixir",
+        "description": "Enhances the user's charisma and beauty, making them more persuasive.",
+        "type": "Charisma"
+    },
+    {
+        "id": 36,
+        "name": "Goblin's Glee Glug",
+        "description": "Causes uncontrollable laughter and joy for a short period.",
+        "type": "Happiness"
+    },
+    {
+        "id": 37,
+        "name": "Halfling's Hunger Halter",
+        "description": "Reduces hunger and the need for food for one day.",
+        "type": "Sustenance"
+    },
+    {
+        "id": 38,
+        "name": "Wizard's Wisdom Wash",
+        "description": "Temporarily boosts intelligence and problem-solving skills.",
+        "type": "Intelligence"
+    },
+    {
+        "id": 39,
+        "name": "Siren's Song Serum",
+        "description": "User's voice becomes enchanting, influencing those who hear it.",
+        "type": "Influence"
+    },
+    {
+        "id": 40,
+        "name": "Mystic Moon Mead",
+        "description": "Enhances magical abilities during the night.",
+        "type": "Magic"
+    },
+    {
+        "id": 41,
+        "name": "Necromancer's Nectar",
+        "description": "Allows the user to perceive and communicate with the dead.",
+        "type": "Necromancy"
+    },
+    {
+        "id": 42,
+        "name": "Oracle's Ointment",
+        "description": "Grants visions of possible futures, though interpretations may vary.",
+        "type": "Prophecy"
+    },
+    {
+        "id": 43,
+        "name": "Pirate's Plunder Potion",
+        "description": "Enhances navigation skills and luck in finding treasures.",
+        "type": "Navigation"
+    },
+    {
+        "id": 44,
+        "name": "Quicksilver Quencher",
+        "description": "Significantly increases user's reaction time for 30 minutes.",
+        "type": "Reflexes"
+    },
+    {
+        "id": 45,
+        "name": "Ranger's Roam Ration",
+        "description": "Enhances endurance and tracking skills for long journeys.",
+        "type": "Endurance"
+    },
+    {
+        "id": 46,
+        "name": "Stargazer's Spirit",
+        "description": "Enables clear celestial vision and astrological predictions.",
+        "type": "Astrology"
+    },
+    {
+        "id": 47,
+        "name": "Troll's Temper Tonic",
+        "description": "Increases resilience and ability to regenerate health quickly.",
+        "type": "Regeneration"
+    },
+    {
+        "id": 48,
+        "name": "Undead's Uprising Urge",
+        "description": "Grants resistance to necrotic damage and dark magic.",
+        "type": "Resistance"
+    },
+    {
+        "id": 49,
+        "name": "Valkyrie's Valor Vapors",
+        "description": "Instills a sense of honor and tactical prowess in battle.",
+        "type": "Tactics"
+    },
+    {
+        "id": 50,
+        "name": "Witch's Whirlwind Whiskey",
+        "description": "Creates a protective aura that deflects minor spells and curses.",
+        "type": "Protection"
+    }
+
+
+]
