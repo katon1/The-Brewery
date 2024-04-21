@@ -1,0 +1,11 @@
+TO DO 
+
+Homepage: animations + more here 
+
+Recipes: Create a table that displays the JSON file stuff 
+
+Store: Another table that can add to cart and lead to paying + Delievery
+
+Contact: Contact page 
+
+Design of whole website
