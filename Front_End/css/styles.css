@@ -27,14 +27,41 @@ nav ul li a {
     text-decoration: none;
 }
 
+table {
+    border: 1px solid black; /* Assuming a simple border is needed */
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse; /* Optional: for better border appearance */
+}
+
+/* Styles for table headers */
+th {
+    background-color: #f4f4f4; /* Light grey background for headers */
+    border: 1px solid #ddd; /* Light borders for the cells */
+    padding: 8px; /* Padding for content within cells */
+}
+
+/* Styles for table cells */
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; /* Align text to left, modify as needed */
+}
+
+
+
+
+
+
 footer {
     background: #333;
     color: white;
     text-align: center;
-    position: fixed;
+    position: static;
     bottom: 0;
+    top: 100;
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 footer > ul {

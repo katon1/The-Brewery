@@ -1,0 +1,443 @@
+[
+    {
+        "name": "Elixir of Vitality",
+        "ingredients": [
+            "Phantom Petals",
+            "Clearwater",
+            "Giant's Toenails"
+        ],
+        "instruction": "Blend and stir in a glass orb until the mixture turns invisible."
+    },
+    {
+        "name": "Invisibility Draft",
+        "ingredients": [
+            "Giant's Toenails",
+            "Crimson Berries",
+            "Brain Coral"
+        ],
+        "instruction": "Infuse in an enchanted wood bowl with healing chants."
+    },
+    {
+        "name": "Strength Serum",
+        "ingredients": [
+            "Bear's Blood",
+            "Dragon's Blood",
+            "Crimson Berries"
+        ],
+        "instruction": "Boil for three hours in a bronze pot."
+    },
+    {
+        "name": "Memory Mix",
+        "ingredients": [
+            "Owl Feathers",
+            "Crimson Berries",
+            "Ghost Mushroom"
+        ],
+        "instruction": "Grind together and infuse with the dew from a forget-me-not."
+    },
+    {
+        "name": "Healing Harmony",
+        "ingredients": [
+            "Crimson Berries",
+            "Ghost Mushroom",
+            "Phantom Petals"
+        ],
+        "instruction": "Mix in a silver cauldron and simmer under moonlight."
+    },
+    {
+        "name": "Love Liqueur",
+        "ingredients": [
+            "Giant's Toenails",
+            "Dragon's Blood",
+            "Owl Feathers"
+        ],
+        "instruction": "Infuse in an enchanted wood bowl with healing chants."
+    },
+    {
+        "name": "Speed Spirit",
+        "ingredients": [
+            "Bear's Blood",
+            "Clearwater",
+            "Ogre Hair"
+        ],
+        "instruction": "Grind together and infuse with the dew from a forget-me-not."
+    },
+    {
+        "name": "Lucid Dream Potion",
+        "ingredients": [
+            "Crimson Berries",
+            "Clearwater",
+            "Giant's Toenails"
+        ],
+        "instruction": "Boil for three hours in a bronze pot."
+    },
+    {
+        "name": "Fortune Fluid",
+        "ingredients": [
+            "Clearwater",
+            "Owl Feathers",
+            "Bear's Blood"
+        ],
+        "instruction": "Mix in a silver cauldron and simmer under moonlight."
+    },
+    {
+        "name": "Tranquility Tonic",
+        "ingredients": [
+            "Clearwater",
+            "Crimson Berries",
+            "Bear's Blood"
+        ],
+        "instruction": "Mix in a silver cauldron and simmer under moonlight."
+    },
+    {
+        "name": "Fire Breath Draught",
+        "ingredients": [
+            "Phantom Petals",
+            "Ghost Mushroom",
+            "Moonleaf"
+        ],
+        "instruction": "Infuse in an enchanted wood bowl with healing chants."
+    },
+    {
+        "name": "Frost Finger Potion",
+        "ingredients": [
+            "Crimson Berries",
+            "Phantom Petals",
+            "Dragon's Blood"
+        ],
+        "instruction": "Blend and stir in a glass orb until the mixture turns invisible."
+    },
+    {
+        "name": "Giant Growth Grog",
+        "ingredients": [
+            "Dragon's Blood",
+            "Ogre Hair",
+            "Crimson Berries"
+        ],
+        "instruction": "Grind together and infuse with the dew from a forget-me-not."
+    },
+    {
+        "name": "Shrink Solution",
+        "ingredients": [
+            "Dragon's Blood",
+            "Crimson Berries",
+            "Phantom Petals"
+        ],
+        "instruction": "Boil for three hours in a bronze pot."
+    },
+    {
+        "name": "Night Vision Nectar",
+        "ingredients": [
+            "Brain Coral",
+            "Dragon's Blood",
+            "Ghost Mushroom"
+        ],
+        "instruction": "Infuse in an enchanted wood bowl with healing chants."
+    },
+    {
+        "name": "Antidote Elixir",
+        "ingredients": [
+            "Dragon's Blood",
+            "Bear's Blood",
+            "Wormwood Oil"
+        ],
+        "instruction": "Boil for three hours in a bronze pot."
+    },
+    {
+        "name": "Fleet-Foot Formula",
+        "ingredients": [
+            "Ghost Mushroom",
+            "Moonleaf",
+            "Dragon's Blood"
+        ],
+        "instruction": "Blend and stir in a glass orb until the mixture turns invisible."
+    },
+    {
+        "name": "Clairvoyance Cocktail",
+        "ingredients": [
+            "Giant's Toenails",
+            "Crimson Berries",
+            "Ogre Hair"
+        ],
+        "instruction": "Boil for three hours in a bronze pot."
+    },
+    {
+        "name": "Stoneskin Serum",
+        "ingredients": [
+            "Dragon's Blood",
+            "Bear's Blood",
+            "Phantom Petals"
+        ],
+        "instruction": "Blend and stir in a glass orb until the mixture turns invisible."
+    },
+    {
+        "name": "Levitation Lotion",
+        "ingredients": [
+            "Crimson Berries",
+            "Phantom Petals",
+            "Bear's Blood"
+        ],
+        "instruction": "Infuse in an enchanted wood bowl with healing chants."
+    },
+    {
+        "name": "Phantom Philter",
+        "ingredients": [
+            "Giant's Toenails",
+            "Ghost Mushroom",
+            "Dragon's Blood"
+        ],
+        "instruction": "Boil for three hours in a bronze pot."
+    },
+    {
+        "name": "Sunshine Syrup",
+        "ingredients": [
+            "Wormwood Oil",
+            "Clearwater",
+            "Owl Feathers"
+        ],
+        "instruction": "Blend and stir in a glass orb until the mixture turns invisible."
+    },
+    {
+        "name": "Barkskin Brew",
+        "ingredients": [
+            "Moonleaf",
+            "Ogre Hair",
+            "Ghost Mushroom"
+        ],
+        "instruction": "Boil for three hours in a bronze pot."
+    },
+    {
+        "name": "Whisper Wind Wine",
+        "ingredients": [
+            "Dragon's Blood",
+            "Phantom Petals",
+            "Owl Feathers"
+        ],
+        "instruction": "Boil for three hours in a bronze pot."
+    },
+    {
+        "name": "Thunder Throat Tonic",
+        "ingredients": [
+            "Wormwood Oil",
+            "Moonleaf",
+            "Dragon's Blood"
+        ],
+        "instruction": "Infuse in an enchanted wood bowl with healing chants."
+    },
+    {
+        "name": "Mirror Mist Medicine",
+        "ingredients": [
+            "Moonleaf",
+            "Crimson Berries",
+            "Clearwater"
+        ],
+        "instruction": "Mix in a silver cauldron and simmer under moonlight."
+    },
+    {
+        "name": "Ogre's Oath Oil",
+        "ingredients": [
+            "Dragon's Blood",
+            "Crimson Berries",
+            "Ogre Hair"
+        ],
+        "instruction": "Blend and stir in a glass orb until the mixture turns invisible."
+    },
+    {
+        "name": "Pixie Dust Potion",
+        "ingredients": [
+            "Phantom Petals",
+            "Moonleaf",
+            "Brain Coral"
+        ],
+        "instruction": "Grind together and infuse with the dew from a forget-me-not."
+    },
+    {
+        "name": "Wraith Wrath Water",
+        "ingredients": [
+            "Giant's Toenails",
+            "Ogre Hair",
+            "Owl Feathers"
+        ],
+        "instruction": "Grind together and infuse with the dew from a forget-me-not."
+    },
+    {
+        "name": "Zephyr Zest Zinger",
+        "ingredients": [
+            "Clearwater",
+            "Giant's Toenails",
+            "Ogre Hair"
+        ],
+        "instruction": "Mix in a silver cauldron and simmer under moonlight."
+    },
+    {
+        "name": "Vampire's Veil Vial",
+        "ingredients": [
+            "Owl Feathers",
+            "Dragon's Blood",
+            "Ogre Hair"
+        ],
+        "instruction": "Boil for three hours in a bronze pot."
+    },
+    {
+        "name": "Ether Essence Elixir",
+        "ingredients": [
+            "Owl Feathers",
+            "Phantom Petals",
+            "Giant's Toenails"
+        ],
+        "instruction": "Mix in a silver cauldron and simmer under moonlight."
+    },
+    {
+        "name": "Mermaid's Melody Mixture",
+        "ingredients": [
+            "Moonleaf",
+            "Owl Feathers",
+            "Clearwater"
+        ],
+        "instruction": "Grind together and infuse with the dew from a forget-me-not."
+    },
+    {
+        "name": "Dragon's Dare Draught",
+        "ingredients": [
+            "Clearwater",
+            "Moonleaf",
+            "Dragon's Blood"
+        ],
+        "instruction": "Mix in a silver cauldron and simmer under moonlight."
+    },
+    {
+        "name": "Elven Elegance Elixir",
+        "ingredients": [
+            "Moonleaf",
+            "Clearwater",
+            "Bear's Blood"
+        ],
+        "instruction": "Grind together and infuse with the dew from a forget-me-not."
+    },
+    {
+        "name": "Goblin's Glee Glug",
+        "ingredients": [
+            "Giant's Toenails",
+            "Crimson Berries",
+            "Dragon's Blood"
+        ],
+        "instruction": "Blend and stir in a glass orb until the mixture turns invisible."
+    },
+    {
+        "name": "Halfling's Hunger Halter",
+        "ingredients": [
+            "Ghost Mushroom",
+            "Phantom Petals",
+            "Crimson Berries"
+        ],
+        "instruction": "Blend and stir in a glass orb until the mixture turns invisible."
+    },
+    {
+        "name": "Wizard's Wisdom Wash",
+        "ingredients": [
+            "Moonleaf",
+            "Bear's Blood",
+            "Wormwood Oil"
+        ],
+        "instruction": "Infuse in an enchanted wood bowl with healing chants."
+    },
+    {
+        "name": "Siren's Song Serum",
+        "ingredients": [
+            "Ogre Hair",
+            "Bear's Blood",
+            "Crimson Berries"
+        ],
+        "instruction": "Grind together and infuse with the dew from a forget-me-not."
+    },
+    {
+        "name": "Mystic Moon Mead",
+        "ingredients": [
+            "Crimson Berries",
+            "Phantom Petals",
+            "Dragon's Blood"
+        ],
+        "instruction": "Infuse in an enchanted wood bowl with healing chants."
+    },
+    {
+        "name": "Necromancer's Nectar",
+        "ingredients": [
+            "Moonleaf",
+            "Bear's Blood",
+            "Crimson Berries"
+        ],
+        "instruction": "Infuse in an enchanted wood bowl with healing chants."
+    },
+    {
+        "name": "Oracle's Ointment",
+        "ingredients": [
+            "Brain Coral",
+            "Wormwood Oil",
+            "Giant's Toenails"
+        ],
+        "instruction": "Infuse in an enchanted wood bowl with healing chants."
+    },
+    {
+        "name": "Pirate's Plunder Potion",
+        "ingredients": [
+            "Bear's Blood",
+            "Owl Feathers",
+            "Wormwood Oil"
+        ],
+        "instruction": "Mix in a silver cauldron and simmer under moonlight."
+    },
+    {
+        "name": "Quicksilver Quencher",
+        "ingredients": [
+            "Phantom Petals",
+            "Dragon's Blood",
+            "Ogre Hair"
+        ],
+        "instruction": "Boil for three hours in a bronze pot."
+    },
+    {
+        "name": "Ranger's Roam Ration",
+        "ingredients": [
+            "Ghost Mushroom",
+            "Crimson Berries",
+            "Ogre Hair"
+        ],
+        "instruction": "Grind together and infuse with the dew from a forget-me-not."
+    },
+    {
+        "name": "Stargazer's Spirit",
+        "ingredients": [
+            "Bear's Blood",
+            "Ghost Mushroom",
+            "Owl Feathers"
+        ],
+        "instruction": "Mix in a silver cauldron and simmer under moonlight."
+    },
+    {
+        "name": "Troll's Temper Tonic",
+        "ingredients": [
+            "Giant's Toenails",
+            "Wormwood Oil",
+            "Dragon's Blood"
+        ],
+        "instruction": "Infuse in an enchanted wood bowl with healing chants."
+    },
+    {
+        "name": "Undead's Uprising Urge",
+        "ingredients": [
+            "Dragon's Blood",
+            "Crimson Berries",
+            "Owl Feathers"
+        ],
+        "instruction": "Grind together and infuse with the dew from a forget-me-not."
+    },
+    {
+        "name": "Valkyrie's Valor Vapors",
+        "ingredients": [
+            "Ghost Mushroom",
+            "Crimson Berries",
+            "Giant's Toenails"
+        ],
+        "instruction": "Mix in a silver cauldron and simmer under moonlight."
+    }
+]
