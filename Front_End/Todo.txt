@@ -2,9 +2,9 @@ TO DO
 
 Homepage: animations + more here 
 
-Recipes: Create a table that displays the JSON file stuff 
+Recipes: Create a table that displays the JSON file stuff (Done) Make design for the recipe page (Maybe change this into a book of recipes as animation or design wise)
 
-Store: Another table that can add to cart and lead to paying + Delievery
+Store: Another table that can add to cart and lead to paying + Delivery (Add to cart done but needs to have it "stored and saved") payment needs to be done
 
 Contact: Contact page 
 
