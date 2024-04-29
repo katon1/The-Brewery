@@ -1,8 +1,10 @@
 
 // I didn't want to set up a server for the JSON stuff :p, change console.log once the table is done
+// need a lot of styling to be done to this kekw design workk later
 
 let potionsData = [];
 let potionsRecipe = [];
+let cart = [];
 
 document.addEventListener("DOMContentLoaded", (event) => {
     fetch('../data/potions.json')
@@ -26,14 +28,13 @@ function showSection(section) {
     switch (section) {
         case 'home':
             content.innerHTML = '<h2>Explore Our Potions</h2><p>Welcome to the Brewery! Discover our wide variety of potions from health elixirs to invisibility brews.</p>';
+            addPotionAnimation();
             break;
         case 'recipes':
             content.innerHTML = '<h2>Learn to Brew</h2><p>Explore our detailed potion recipes and craft your own concoctions.</p>';
-            console.log('Recipes Data:', potionsRecipe); // Debug stuff, Get rid after
             if (potionsRecipe.length > 0 && 'ingredients' in potionsRecipe[0] && 'instruction' in potionsRecipe[0]) {
                 createPotionTable(potionsRecipe, 'recipes');
             } else {
-                console.error('Missing ingredients or instructions in potion recipes'); // Debug stuff, Get rid after
                 content.innerHTML += '<p>Error: Potion recipe data is incomplete or incorrectly formatted.</p>';
             }
             break;
@@ -43,10 +44,29 @@ function showSection(section) {
             break;
         case 'contact':
             content.innerHTML = '<h2>Contact Us</h2><p>For feedback and inquiries, please reach out to us!</p>';
+            createContact();
             break;
     }
 }
+
+function addPotionAnimation() {
+    const animationContainer = document.createElement('div');
+    animationContainer.id = 'potionAnimation';
+   
+    const potionImage = document.createElement('img');
+    potionImage.src = '../images/Potion.jpg'; 
+    potionImage.alt = 'Floating Potion';
+    potionImage.className = 'floating';
+
+    animationContainer.appendChild(potionImage);
+    const content = document.getElementById('content');
+    content.appendChild(animationContainer);
+}
+
+//Add maybe a slide animation for store page to display potions. 
+
 // Debug stuff, Get rid after
+
 function createPotionTable(potions, type) {
     const tableContainer = document.createElement('div');
     tableContainer.id = 'recipeTableContainer';
@@ -54,7 +74,7 @@ function createPotionTable(potions, type) {
     table.className = 'potion-table';
     const thead = document.createElement('thead');
     const headerRow = document.createElement('tr');
-    let headers = type === 'recipes' ? ['Name', 'Ingredients', 'Instruction'] : ['Name', 'Description', 'Type'];
+    let headers = type === 'recipes' ? ['Name', 'Ingredients', 'Instruction'] : ['Name', 'Description', 'Type', 'Cart'];
 
     headers.forEach(text => {
         const headerCell = document.createElement('th');
@@ -67,14 +87,20 @@ function createPotionTable(potions, type) {
     const tbody = document.createElement('tbody');
     potions.forEach(potion => {
         const row = document.createElement('tr');
-        console.log('Potion Data:', potion); // Debug: Log each potion object being processed
         headers.forEach(key => {
             const cell = document.createElement('td');
-            let value = potion[key.toLowerCase()];  // Fetch value using key, ensuring lower case usage matches JSON keys
-            if (key === 'Ingredients' && type === 'recipes') {
-                value = potion[key.toLowerCase()].join(', ');  // Join array of ingredients into a string
+            if (key === 'Cart') {
+                const addButton = document.createElement('button');
+                addButton.textContent = 'Add to Cart';
+                addButton.onclick = function() {addToCart(potion);};
+                cell.appendChild(addButton);
+            } else {
+                let value = potion[key.toLowerCase()];
+                if (key === 'Ingredients' && type === 'recipes') {
+                    value = potion[key.toLowerCase()].join(', ');
+                }
+                cell.textContent = value ? value : 'Data missing';
             }
-            cell.textContent = value ? value : 'Data missing';  // Handle missing data gracefully
             row.appendChild(cell);
         });
         tbody.appendChild(row);
@@ -86,7 +112,33 @@ function createPotionTable(potions, type) {
     content.appendChild(tableContainer);
 }
 
+function addToCart(potion) {
+    const existingItem = cart.find(item => item.id === potion.id);
+    if (existingItem) {
+        existingItem.quantity += 1;
+    } else {
+        cart.push({ ...potion, quantity: 1 });
+    }
+    console.log('Cart:', cart); // Debug stuffs
+    updateCartDisplay();
+}
 
+function updateCartDisplay() {
+    const cartDisplay = document.getElementById('cartDisplay') || document.createElement('div');
+    cartDisplay.id = 'cartDisplay';
+    cartDisplay.innerHTML = '';
+    cart.forEach(item => {
+        const itemElement = document.createElement('div');
+        itemElement.textContent = `${item.name} - Quantity: ${item.quantity}`;
+        cartDisplay.appendChild(itemElement);
+    });
+    const content = document.getElementById('content');
+    content.appendChild(cartDisplay);
+}
+
+function createContact(){
+    // Contact us form
+}
 
 // Load the home section by default
 window.onload = () => {

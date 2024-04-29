@@ -1,20 +1,26 @@
-body, html {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
+
+
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #3e3d54; /* Dark purple background */
+    color: #3f3838; /* Light grey text for readability */
+    text-align: center;
 }
 
-header {
-    background: #333;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
+header, footer {
+    background-color: #292741; /* Slightly darker background for header/footer */
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Papyrus', fantasy; /* Script-like font for headers */
+    color: #f4e041; /* Gold color for headings */
 }
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 20px;
 }
 
 nav ul li {
@@ -23,9 +29,23 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
+    color: #f4e041; /* Gold color */
+    font-weight: bold;
 }
+
+section {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent */
+    border: 2px solid #f4e041; /* Gold border */
+}
+
+footer {
+    font-size: 0.75em;
+    padding-top: 10px;
+}
+
 
 table {
     border: 1px solid black; /* Assuming a simple border is needed */
@@ -48,9 +68,19 @@ td {
     text-align: left; /* Align text to left, modify as needed */
 }
 
+/* For the potion img to be floating */
+.floating { 
+    animation: float 3s ease-in-out infinite;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width:20%; /* Adjust based on your preference */
+  }
 
-
-
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+  }
 
 
 footer {
